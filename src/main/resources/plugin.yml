@@ -1,0 +1,13 @@
+name: SimpShopPlus
+version: '${project.version}'
+main: me.sfclog.simpshopplus.Main
+api-version: 1.19
+authors: [ SFC_Log ]
+depend: [PlaceholderAPI, Vault]
+soft-depend: [PlayerPoints]
+commands:
+  simpshopplus:
+  shop:
+    aliases: [cuahang, cuahangmaychu]
+  sellgui:
+    aliases: [sg]
