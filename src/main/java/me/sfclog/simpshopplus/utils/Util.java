@@ -73,10 +73,11 @@ public class Util {
     public static boolean hasItem(Player p, Material m , int size) {
         OffHandFix.clear_off_hand(p, m);
         ArrayList<Integer> list = new ArrayList<Integer>();
-        for (ItemStack item : p.getInventory().getContents()) {
+        for(int i = 0; i < 36 ; i ++) {
+            ItemStack item = p.getInventory().getItem(i);
             if(item != null) {
-                if(item.getType() == m) {
-                    if(check_custome_item(item)) {
+                if (item.getType() == m) {
+                    if (check_custome_item(item)) {
                         list.add(item.getAmount());
                     }
                 }
@@ -85,7 +86,6 @@ public class Util {
         if(!list.isEmpty() && summap(list) >= size) {
             return true;
         }
-
         return false;
     }
 

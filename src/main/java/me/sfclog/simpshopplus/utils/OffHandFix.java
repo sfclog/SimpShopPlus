@@ -18,7 +18,4 @@ public class OffHandFix {
 	    	  p.updateInventory();
 	      }
 	}
-
-
-
 }

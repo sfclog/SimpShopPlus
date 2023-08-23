@@ -21,16 +21,13 @@ public class SimpShopPlus implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
-
-            send(arg0," ");
-            send(arg0,"&5SimpShopPlus &f- &eCửa Hàng Máy Chủ");
-            send(arg0," ");
-            send(arg0,"&fAuthor: &bSmallFCraft Studio");
-            send(arg0," ");
-            send(arg0,"&6Bản quyền thuộc về &cSimpMC@2022");
-            send(arg0," ");
-
-
+        send(arg0," ");
+        send(arg0,"&#fb2eda&lS&#fb34dc&li&#fb39de&lm&#fc3fdf&lp&#fc44e1&lS&#fc4ae3&lh&#fc4fe5&lo&#fc55e7&lp&#fc5ae9&lP&#fd60ea&ll&#fd65ec&lu&#fd6bee&ls &7| &fPE X PC Shops");
+        send(arg0," ");
+        send(arg0,"&fAuthor: &bSmallFCraft Studio");
+        send(arg0," ");
+        send(arg0,"&6Bản quyền thuộc về &cSimpMC@2023");
+        send(arg0," ");
         return true;
     }
 
